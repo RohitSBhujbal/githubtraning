@@ -1,0 +1,94 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+
+}
+header{
+    width: 100; height: 100vh;
+    background-image:url(images/Verna\ 8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    width: 100;height: 10vh;
+    background: rgba(0,0,0,0.2);
+    color: white; display: flex; justify-content: space-between;
+    align-items: center;text-transform: uppercase;
+}
+nav .logo{
+    width: 15%;text-align: center;
+    text-shadow: 2px 4px 6px rgb(243, 8, 8);
+}
+nav .menu{
+    width: 30%;
+    display: flex; justify-content: space-around;
+    
+}
+nav .menu a{
+    width: 25%;
+    text-decoration: none;color: white;
+    font-weight: bold;
+}  
+nav .menu a:first-child{
+    color: #00b894;
+}
+main{
+    width: 100;
+    height: 85vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    right-width: 25%;
+    text-align: center;
+    color: white;
+}
+section{
+
+}
+section h3{
+    font-size: 35px;font-weight: 200;letter-spacing: 3px;
+    text-shadow: 2px 2px 3px red;
+    
+}
+section h1{
+    margin: 15px 0 10px 0;
+    font-size: 55px;
+    font-weight: 600;
+    text-shadow: 2px 1px 5px rgb(160, 77, 77);
+    text-transform: uppercase;
+}
+section p{
+    font-size: 35px;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    color:rgb(247, 57, 9);
+    text-shadow: 1px 1px 1px blue;
+    
+}
+section a{
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all .5sec ease;
+}
+section .btnone{
+    background: #fff;
+    color: #000;
+}
+.btnone:hover{
+    background: #00b894;
+    color: white;
+
+}
+section .btntwo{
+    background: #00b894;
+    color: white;
+}
+.btntwo:hover{
+    background: #fff;
+    color: #000;
+}
